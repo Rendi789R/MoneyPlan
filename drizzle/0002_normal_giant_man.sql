@@ -1,0 +1,1 @@
+CREATE UNIQUE INDEX "category_user_name_type_unique" ON "categories" USING btree ("user_id","type",lower(trim("name")));

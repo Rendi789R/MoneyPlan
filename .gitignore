@@ -1,0 +1,16 @@
+.neon
+node_modules/
+.env.local
+.env
+.env.*
+!.env.example
+.next/
+out/
+dist/
+*.tsbuildinfo
+drizzle/meta/
+.agents/skills/
+.agents/
+.DS_Store
+.vercel/
+coverage/
